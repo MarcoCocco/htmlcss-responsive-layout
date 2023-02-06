@@ -231,3 +231,52 @@ h4 {
 
 /* Fourth Section End */
 
+.fifth-section {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fifth-section .about-col-1 h2 {
+    color: #9792e4;
+}
+
+.fifth-section .about-col-2 .col-2-image,
+.about-paragraph,
+.find-button {
+    margin-bottom: 20px;
+}
+
+.fifth-section .about-col-2 .col-2-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fifth-section .about-col-2 .col-2-image {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.fifth-section .about-col-2 .col-2-image #quote {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.5em;
+    color: #9792e4;
+}
+
+.fifth-section .about-col-2 .about-paragraph {
+    color: #9792e4;
+}
+
+.fifth-section .about-col-2 .find-button .find-me-button {
+    background-color: #9792e4;
+    color: white;
+}
+
+/* Fifth Section End */
+
