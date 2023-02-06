@@ -134,7 +134,7 @@ p {
     border-radius: 20px;
     background-color: white;
     text-align: center;
-    
+
 }
 
 .second-section .col-2>* {
@@ -151,6 +151,7 @@ p {
     border-radius: 50%;
     background-color: #9792e4;
 }
+
 /* Second Section End */
 
 .third-section {
@@ -192,4 +193,41 @@ p {
     text-align: center;
     color: white;
 }
+
 /* Third Section End */
+
+.fourth-section {
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #9792e4;
+}
+
+.fourth-section h2 {
+    color: white;
+    text-align: center;
+}
+
+.fourth-section .benefit-col {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.fourth-section .benefit-col h1,
+h4 {
+    color: #9792e4;
+}
+
+.fourth-section .benefit-col .more .more-button {
+    background-color: #9792e4;
+    color: white;
+}
+
+/* Fourth Section End */
+
