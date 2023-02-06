@@ -12,5 +12,94 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.btn {
+    border: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
 /* ---------- /UTILITIES ---------- */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #0084fd;
+}
+
+nav .nav-left #logo {
+    padding: 10px 20px;
+}
+
+nav .nav-left #logo img {
+    width: 80%;
+}
+
+nav .nav-right #hamburger-icon {
+    padding: 10px 20px;
+}
+
+nav .nav-right #hamburger-icon i {
+    font-size: 1.6em;
+    color: white;
+}
+
+/* ---------- /NAV-BAR ---------- */
+
+.first-section {
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.first-section .col {
+    padding: 30px 20px 0 20px;
+    border-radius: 20px;
+    background-color: #b5ddff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-section .col>* {
+    padding-bottom: 25px;
+}
+
+.first-section .col h2 {
+    color: #2294fd;
+}
+
+.first-section .col-special {
+    text-align: left;
+}
+
+.first-section .col-special .text-section h2,
+p {
+    padding-bottom: 25px;
+}
+
+.first-section .col-special .app-store a .store-button {
+    background-color: #0084fd;
+    font-size: .7em;
+    color: white;
+}
+
+.first-section .col-special .store-image {
+    padding-bottom: 0;
+}
+
+.first-section .col-special .store-image img {
+    width: 100%;
+    display: block;
+}
+
+.first-section .col .fa-solid {
+    font-size: 5em;
+    color: #0084fd
+}
+/* First Section End */
 
