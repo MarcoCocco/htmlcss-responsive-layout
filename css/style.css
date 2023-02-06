@@ -19,6 +19,10 @@ body {
     border-radius: 50px;
 }
 
+.tw {
+    color: white;
+}
+
 /* ---------- /UTILITIES ---------- */
 
 nav {
@@ -50,7 +54,7 @@ nav .nav-right #hamburger-icon i {
 /* ---------- /NAV-BAR ---------- */
 
 .first-section {
-    margin: 30px 20px;
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -101,5 +105,50 @@ p {
     font-size: 5em;
     color: #0084fd
 }
+
 /* First Section End */
 
+.second-section {
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #9792e4;
+}
+
+.second-section .col-1>* {
+    padding-bottom: 25px;
+}
+
+.second-section .col-1 .planning-text-1 h2,
+p {
+    padding: 25px 0;
+}
+
+.second-section .col-1 .planning-image-1 img {
+    width: 100%;
+}
+
+.second-section .col-2 {
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.second-section .col-2>* {
+    padding: 10px 0;
+}
+
+.second-section .col-2 .planning-image-2 img {
+    width: 100%;
+}
+
+.second-section .col-2 .fa-down-long {
+    margin: 15px 0;
+    padding: 15px 18px;
+    border-radius: 50%;
+    background-color: #9792e4;
+}
+/* Second Section End */
