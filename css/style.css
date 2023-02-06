@@ -8,6 +8,10 @@ body {
     font-family: sans-serif;
 }
 
+p {
+    line-height: 1.8em;
+}
+
 .page-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -279,4 +283,35 @@ h4 {
 }
 
 /* Fifth Section End */
+
+.start-section {
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #9792e4;
+}
+
+.start-section .start>* {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.start-section .start h1 {
+    color: #fdc15f;
+    font-size: 4em;
+}
+
+.start-section .start .get-started-button {
+    padding: 20px 50px;
+    color: #9792e4;
+}
+
+.start-section .start .copiright {
+    padding-top: 25px;
+    font-size: .8em;
+}
+
+/* Start Section End */
 
